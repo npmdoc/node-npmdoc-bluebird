@@ -48,9 +48,9 @@
 </style>
 <h1>api-documentation for
     <a
-        
+
         href="https://github.com/petkaantonov/bluebird"
-        
+
     >bluebird (v3.5.0)</a>
 </h1>
 <h4>Full featured Promises/A+ implementation with exceptionally good performance</h4>
@@ -58,1086 +58,1086 @@
     href="#apidoc.tableOfContents"
     id="apidoc.tableOfContents"
 ><h1>table of contents</h1></a><ol>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird">module bluebird</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError">
             function <span class="apidocSignatureSpan">bluebird.</span>AggregateError
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.CancellationError">
             function <span class="apidocSignatureSpan">bluebird.</span>CancellationError
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.OperationalError">
             function <span class="apidocSignatureSpan">bluebird.</span>OperationalError
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.Promise">
             function <span class="apidocSignatureSpan">bluebird.</span>Promise
             <span class="apidocSignatureSpan">(executor)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection">
             function <span class="apidocSignatureSpan">bluebird.</span>PromiseInspection
             <span class="apidocSignatureSpan">(promise)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.RangeError">
             function <span class="apidocSignatureSpan">bluebird.</span>RangeError
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.RejectionError">
             function <span class="apidocSignatureSpan">bluebird.</span>RejectionError
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.TimeoutError">
             function <span class="apidocSignatureSpan">bluebird.</span>TimeoutError
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.TypeError">
             function <span class="apidocSignatureSpan">bluebird.</span>TypeError
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray">
             function <span class="apidocSignatureSpan">bluebird.</span>_SomePromiseArray
             <span class="apidocSignatureSpan">(values)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._peekContext">
             function <span class="apidocSignatureSpan">bluebird.</span>_peekContext
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.all">
             function <span class="apidocSignatureSpan">bluebird.</span>all
             <span class="apidocSignatureSpan">(promises)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.any">
             function <span class="apidocSignatureSpan">bluebird.</span>any
             <span class="apidocSignatureSpan">(promises)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.attempt">
             function <span class="apidocSignatureSpan">bluebird.</span>attempt
             <span class="apidocSignatureSpan">(fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.bind">
             function <span class="apidocSignatureSpan">bluebird.</span>bind
             <span class="apidocSignatureSpan">(thisArg, value)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.cast">
             function <span class="apidocSignatureSpan">bluebird.</span>cast
             <span class="apidocSignatureSpan">(obj)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.config">
             function <span class="apidocSignatureSpan">bluebird.</span>config
             <span class="apidocSignatureSpan">(opts)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.coroutine">
             function <span class="apidocSignatureSpan">bluebird.</span>coroutine
             <span class="apidocSignatureSpan">(generatorFunction, options)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.defer">
             function <span class="apidocSignatureSpan">bluebird.</span>defer
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.delay">
             function <span class="apidocSignatureSpan">bluebird.</span>delay
             <span class="apidocSignatureSpan">(ms, value)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.each">
             function <span class="apidocSignatureSpan">bluebird.</span>each
             <span class="apidocSignatureSpan">(promises, fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.filter">
             function <span class="apidocSignatureSpan">bluebird.</span>filter
             <span class="apidocSignatureSpan">(promises, fn, options)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.fromCallback">
             function <span class="apidocSignatureSpan">bluebird.</span>fromCallback
             <span class="apidocSignatureSpan">(fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.fromNode">
             function <span class="apidocSignatureSpan">bluebird.</span>fromNode
             <span class="apidocSignatureSpan">(fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.fulfilled">
             function <span class="apidocSignatureSpan">bluebird.</span>fulfilled
             <span class="apidocSignatureSpan">(obj)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.getNewLibraryCopy">
             function <span class="apidocSignatureSpan">bluebird.</span>getNewLibraryCopy
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.hasLongStackTraces">
             function <span class="apidocSignatureSpan">bluebird.</span>hasLongStackTraces
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.is">
             function <span class="apidocSignatureSpan">bluebird.</span>is
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.join">
             function <span class="apidocSignatureSpan">bluebird.</span>join
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.longStackTraces">
             function <span class="apidocSignatureSpan">bluebird.</span>longStackTraces
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.map">
             function <span class="apidocSignatureSpan">bluebird.</span>map
             <span class="apidocSignatureSpan">(promises, fn, options, _filter)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.mapSeries">
             function <span class="apidocSignatureSpan">bluebird.</span>mapSeries
             <span class="apidocSignatureSpan">(promises, fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.method">
             function <span class="apidocSignatureSpan">bluebird.</span>method
             <span class="apidocSignatureSpan">(fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.noConflict">
             function <span class="apidocSignatureSpan">bluebird.</span>noConflict
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.onPossiblyUnhandledRejection">
             function <span class="apidocSignatureSpan">bluebird.</span>onPossiblyUnhandledRejection
             <span class="apidocSignatureSpan">(fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.onUnhandledRejectionHandled">
             function <span class="apidocSignatureSpan">bluebird.</span>onUnhandledRejectionHandled
             <span class="apidocSignatureSpan">(fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.pending">
             function <span class="apidocSignatureSpan">bluebird.</span>pending
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.promisify">
             function <span class="apidocSignatureSpan">bluebird.</span>promisify
             <span class="apidocSignatureSpan">(fn, options)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.promisifyAll">
             function <span class="apidocSignatureSpan">bluebird.</span>promisifyAll
             <span class="apidocSignatureSpan">(target, options)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.props">
             function <span class="apidocSignatureSpan">bluebird.</span>props
             <span class="apidocSignatureSpan">(promises)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.race">
             function <span class="apidocSignatureSpan">bluebird.</span>race
             <span class="apidocSignatureSpan">(promises)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.reduce">
             function <span class="apidocSignatureSpan">bluebird.</span>reduce
             <span class="apidocSignatureSpan">(promises, fn, initialValue, _each)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.reject">
             function <span class="apidocSignatureSpan">bluebird.</span>reject
             <span class="apidocSignatureSpan">(reason)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.rejected">
             function <span class="apidocSignatureSpan">bluebird.</span>rejected
             <span class="apidocSignatureSpan">(reason)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.resolve">
             function <span class="apidocSignatureSpan">bluebird.</span>resolve
             <span class="apidocSignatureSpan">(obj)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.setScheduler">
             function <span class="apidocSignatureSpan">bluebird.</span>setScheduler
             <span class="apidocSignatureSpan">(fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.settle">
             function <span class="apidocSignatureSpan">bluebird.</span>settle
             <span class="apidocSignatureSpan">(promises)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.some">
             function <span class="apidocSignatureSpan">bluebird.</span>some
             <span class="apidocSignatureSpan">(promises, howMany)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.spawn">
             function <span class="apidocSignatureSpan">bluebird.</span>spawn
             <span class="apidocSignatureSpan">(generatorFunction)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.try">
             function <span class="apidocSignatureSpan">bluebird.</span>try
             <span class="apidocSignatureSpan">(fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.using">
             function <span class="apidocSignatureSpan">bluebird.</span>using
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">bluebird.</span>AggregateError.prototype</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">bluebird.</span>CancellationError.prototype</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">bluebird.</span>OperationalError.prototype</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">bluebird.</span>PromiseInspection.prototype</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">bluebird.</span>TimeoutError.prototype</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">bluebird.</span>_SomePromiseArray.prototype</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">bluebird.</span>version</span>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.AggregateError">module bluebird.AggregateError</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.AggregateError">
             function <span class="apidocSignatureSpan">bluebird.</span>AggregateError
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.AggregateError.prototype">module bluebird.AggregateError.prototype</a><ol>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>isOperational</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.constructor">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>constructor
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.every">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>every
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.filter">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>filter
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.forEach">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>forEach
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.indexOf">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>indexOf
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.join">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>join
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.lastIndexOf">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>lastIndexOf
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.map">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>map
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.pop">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>pop
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.push">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>push
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.reduce">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>reduce
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.reduceRight">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>reduceRight
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.reverse">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>reverse
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.shift">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>shift
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.slice">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>slice
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.some">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>some
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.sort">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>sort
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.toString">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>toString
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.AggregateError.prototype.unshift">
             function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>unshift
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>length</span>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.CancellationError">module bluebird.CancellationError</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.CancellationError.CancellationError">
             function <span class="apidocSignatureSpan">bluebird.</span>CancellationError
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.CancellationError.prototype">module bluebird.CancellationError.prototype</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.CancellationError.prototype.constructor">
             function <span class="apidocSignatureSpan">bluebird.CancellationError.prototype.</span>constructor
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.OperationalError">module bluebird.OperationalError</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.OperationalError.OperationalError">
             function <span class="apidocSignatureSpan">bluebird.</span>OperationalError
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.OperationalError.prototype">module bluebird.OperationalError.prototype</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.OperationalError.prototype.constructor">
             function <span class="apidocSignatureSpan">bluebird.OperationalError.prototype.</span>constructor
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.PromiseInspection">module bluebird.PromiseInspection</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.PromiseInspection">
             function <span class="apidocSignatureSpan">bluebird.</span>PromiseInspection
             <span class="apidocSignatureSpan">(promise)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.PromiseInspection.prototype">module bluebird.PromiseInspection.prototype</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.prototype._settledValue">
             function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>_settledValue
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.prototype.error">
             function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>error
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.prototype.isCancelled">
             function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isCancelled
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.prototype.isFulfilled">
             function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isFulfilled
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.prototype.isPending">
             function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isPending
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.prototype.isRejected">
             function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isRejected
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.prototype.isResolved">
             function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isResolved
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.prototype.reason">
             function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>reason
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.PromiseInspection.prototype.value">
             function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>value
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.TimeoutError">module bluebird.TimeoutError</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.TimeoutError.TimeoutError">
             function <span class="apidocSignatureSpan">bluebird.</span>TimeoutError
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.TimeoutError.prototype">module bluebird.TimeoutError.prototype</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.TimeoutError.prototype.constructor">
             function <span class="apidocSignatureSpan">bluebird.TimeoutError.prototype.</span>constructor
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird._SomePromiseArray">module bluebird._SomePromiseArray</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray._SomePromiseArray">
             function <span class="apidocSignatureSpan">bluebird.</span>_SomePromiseArray
             <span class="apidocSignatureSpan">(values)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird._SomePromiseArray.prototype">module bluebird._SomePromiseArray.prototype</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._addFulfilled">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_addFulfilled
             <span class="apidocSignatureSpan">(value)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._addRejected">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_addRejected
             <span class="apidocSignatureSpan">(reason)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._canPossiblyFulfill">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_canPossiblyFulfill
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._checkOutcome">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_checkOutcome
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._fulfilled">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_fulfilled
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._getRangeError">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_getRangeError
             <span class="apidocSignatureSpan">(count)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._init">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_init
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._promiseCancelled">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_promiseCancelled
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._promiseFulfilled">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_promiseFulfilled
             <span class="apidocSignatureSpan">(value)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._promiseRejected">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_promiseRejected
             <span class="apidocSignatureSpan">(reason)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._rejected">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_rejected
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype._resolveEmptyArray">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_resolveEmptyArray
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype.constructor">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>constructor
             <span class="apidocSignatureSpan">(values)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype.howMany">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>howMany
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype.init">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>init
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype.setHowMany">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>setHowMany
             <span class="apidocSignatureSpan">(count)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird._SomePromiseArray.prototype.setUnwrap">
             function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>setUnwrap
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.bluebird.coroutine">module bluebird.coroutine</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.coroutine.coroutine">
             function <span class="apidocSignatureSpan">bluebird.</span>coroutine
             <span class="apidocSignatureSpan">(generatorFunction, options)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.bluebird.coroutine.addYieldHandler">
             function <span class="apidocSignatureSpan">bluebird.coroutine.</span>addYieldHandler
             <span class="apidocSignatureSpan">(fn)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird" id="apidoc.module.bluebird">module bluebird</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError" id="apidoc.element.bluebird.AggregateError">
         function <span class="apidocSignatureSpan">bluebird.</span>AggregateError
@@ -1158,9 +1158,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.CancellationError" id="apidoc.element.bluebird.CancellationError">
         function <span class="apidocSignatureSpan">bluebird.</span>CancellationError
@@ -1181,9 +1181,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.OperationalError" id="apidoc.element.bluebird.OperationalError">
         function <span class="apidocSignatureSpan">bluebird.</span>OperationalError
@@ -1209,9 +1209,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.Promise" id="apidoc.element.bluebird.Promise">
         function <span class="apidocSignatureSpan">bluebird.</span>Promise
@@ -1234,9 +1234,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection" id="apidoc.element.bluebird.PromiseInspection">
         function <span class="apidocSignatureSpan">bluebird.</span>PromiseInspection
@@ -1258,9 +1258,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.RangeError" id="apidoc.element.bluebird.RangeError">
         function <span class="apidocSignatureSpan">bluebird.</span>RangeError
@@ -1271,9 +1271,9 @@
     <li>description and source-code<pre class="apidocCodePre">function RangeError() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.RejectionError" id="apidoc.element.bluebird.RejectionError">
         function <span class="apidocSignatureSpan">bluebird.</span>RejectionError
@@ -1299,9 +1299,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.TimeoutError" id="apidoc.element.bluebird.TimeoutError">
         function <span class="apidocSignatureSpan">bluebird.</span>TimeoutError
@@ -1322,9 +1322,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.TypeError" id="apidoc.element.bluebird.TypeError">
         function <span class="apidocSignatureSpan">bluebird.</span>TypeError
@@ -1335,9 +1335,9 @@
     <li>description and source-code<pre class="apidocCodePre">function TypeError() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray" id="apidoc.element.bluebird._SomePromiseArray">
         function <span class="apidocSignatureSpan">bluebird.</span>_SomePromiseArray
@@ -1353,9 +1353,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._peekContext" id="apidoc.element.bluebird._peekContext">
         function <span class="apidocSignatureSpan">bluebird.</span>_peekContext
@@ -1366,9 +1366,9 @@
     <li>description and source-code<pre class="apidocCodePre">_peekContext = function () {}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.all" id="apidoc.element.bluebird.all">
         function <span class="apidocSignatureSpan">bluebird.</span>all
@@ -1381,9 +1381,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.any" id="apidoc.element.bluebird.any">
         function <span class="apidocSignatureSpan">bluebird.</span>any
@@ -1396,9 +1396,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.attempt" id="apidoc.element.bluebird.attempt">
         function <span class="apidocSignatureSpan">bluebird.</span>attempt
@@ -1431,9 +1431,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.bind" id="apidoc.element.bluebird.bind">
         function <span class="apidocSignatureSpan">bluebird.</span>bind
@@ -1446,9 +1446,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.cast" id="apidoc.element.bluebird.cast">
         function <span class="apidocSignatureSpan">bluebird.</span>cast
@@ -1468,9 +1468,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.config" id="apidoc.element.bluebird.config">
         function <span class="apidocSignatureSpan">bluebird.</span>config
@@ -1527,9 +1527,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.coroutine" id="apidoc.element.bluebird.coroutine">
         function <span class="apidocSignatureSpan">bluebird.</span>coroutine
@@ -1556,9 +1556,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.defer" id="apidoc.element.bluebird.defer">
         function <span class="apidocSignatureSpan">bluebird.</span>defer
@@ -1577,9 +1577,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.delay" id="apidoc.element.bluebird.delay">
         function <span class="apidocSignatureSpan">bluebird.</span>delay
@@ -1609,9 +1609,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.each" id="apidoc.element.bluebird.each">
         function <span class="apidocSignatureSpan">bluebird.</span>each
@@ -1625,9 +1625,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.filter" id="apidoc.element.bluebird.filter">
         function <span class="apidocSignatureSpan">bluebird.</span>filter
@@ -1640,9 +1640,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.fromCallback" id="apidoc.element.bluebird.fromCallback">
         function <span class="apidocSignatureSpan">bluebird.</span>fromCallback
@@ -1664,9 +1664,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.fromNode" id="apidoc.element.bluebird.fromNode">
         function <span class="apidocSignatureSpan">bluebird.</span>fromNode
@@ -1688,9 +1688,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.fulfilled" id="apidoc.element.bluebird.fulfilled">
         function <span class="apidocSignatureSpan">bluebird.</span>fulfilled
@@ -1710,9 +1710,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.getNewLibraryCopy" id="apidoc.element.bluebird.getNewLibraryCopy">
         function <span class="apidocSignatureSpan">bluebird.</span>getNewLibraryCopy
@@ -1842,9 +1842,9 @@ Promise.prototype.then = function (didFulfill, didReject) {
             msg += &#x22;, ...</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.hasLongStackTraces" id="apidoc.element.bluebird.hasLongStackTraces">
         function <span class="apidocSignatureSpan">bluebird.</span>hasLongStackTraces
@@ -1857,9 +1857,9 @@ Promise.prototype.then = function (didFulfill, didReject) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.is" id="apidoc.element.bluebird.is">
         function <span class="apidocSignatureSpan">bluebird.</span>is
@@ -1872,9 +1872,9 @@ Promise.prototype.then = function (didFulfill, didReject) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.join" id="apidoc.element.bluebird.join">
         function <span class="apidocSignatureSpan">bluebird.</span>join
@@ -1940,9 +1940,9 @@ Promise.prototype.then = function (didFulfill, didReject) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.longStackTraces" id="apidoc.element.bluebird.longStackTraces">
         function <span class="apidocSignatureSpan">bluebird.</span>longStackTraces
@@ -1977,9 +1977,9 @@ gl/MqrFmX\u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.map" id="apidoc.element.bluebird.map">
         function <span class="apidocSignatureSpan">bluebird.</span>map
@@ -1992,9 +1992,9 @@ gl/MqrFmX\u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.mapSeries" id="apidoc.element.bluebird.mapSeries">
         function <span class="apidocSignatureSpan">bluebird.</span>mapSeries
@@ -2007,9 +2007,9 @@ gl/MqrFmX\u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.method" id="apidoc.element.bluebird.method">
         function <span class="apidocSignatureSpan">bluebird.</span>method
@@ -2035,9 +2035,9 @@ gl/MqrFmX\u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.noConflict" id="apidoc.element.bluebird.noConflict">
         function <span class="apidocSignatureSpan">bluebird.</span>noConflict
@@ -2052,9 +2052,9 @@ gl/MqrFmX\u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.onPossiblyUnhandledRejection" id="apidoc.element.bluebird.onPossiblyUnhandledRejection">
         function <span class="apidocSignatureSpan">bluebird.</span>onPossiblyUnhandledRejection
@@ -2071,9 +2071,9 @@ gl/MqrFmX\u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.onUnhandledRejectionHandled" id="apidoc.element.bluebird.onUnhandledRejectionHandled">
         function <span class="apidocSignatureSpan">bluebird.</span>onUnhandledRejectionHandled
@@ -2090,9 +2090,9 @@ gl/MqrFmX\u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.pending" id="apidoc.element.bluebird.pending">
         function <span class="apidocSignatureSpan">bluebird.</span>pending
@@ -2111,9 +2111,9 @@ gl/MqrFmX\u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.promisify" id="apidoc.element.bluebird.promisify">
         function <span class="apidocSignatureSpan">bluebird.</span>promisify
@@ -2137,9 +2137,9 @@ gl/MqrFmX\u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.promisifyAll" id="apidoc.element.bluebird.promisifyAll">
         function <span class="apidocSignatureSpan">bluebird.</span>promisifyAll
@@ -2180,9 +2180,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.props" id="apidoc.element.bluebird.props">
         function <span class="apidocSignatureSpan">bluebird.</span>props
@@ -2195,9 +2195,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.race" id="apidoc.element.bluebird.race">
         function <span class="apidocSignatureSpan">bluebird.</span>race
@@ -2210,9 +2210,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.reduce" id="apidoc.element.bluebird.reduce">
         function <span class="apidocSignatureSpan">bluebird.</span>reduce
@@ -2225,9 +2225,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.reject" id="apidoc.element.bluebird.reject">
         function <span class="apidocSignatureSpan">bluebird.</span>reject
@@ -2243,9 +2243,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.rejected" id="apidoc.element.bluebird.rejected">
         function <span class="apidocSignatureSpan">bluebird.</span>rejected
@@ -2261,9 +2261,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.resolve" id="apidoc.element.bluebird.resolve">
         function <span class="apidocSignatureSpan">bluebird.</span>resolve
@@ -2283,9 +2283,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.setScheduler" id="apidoc.element.bluebird.setScheduler">
         function <span class="apidocSignatureSpan">bluebird.</span>setScheduler
@@ -2301,9 +2301,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.settle" id="apidoc.element.bluebird.settle">
         function <span class="apidocSignatureSpan">bluebird.</span>settle
@@ -2317,9 +2317,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.some" id="apidoc.element.bluebird.some">
         function <span class="apidocSignatureSpan">bluebird.</span>some
@@ -2332,9 +2332,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.spawn" id="apidoc.element.bluebird.spawn">
         function <span class="apidocSignatureSpan">bluebird.</span>spawn
@@ -2354,9 +2354,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.try" id="apidoc.element.bluebird.try">
         function <span class="apidocSignatureSpan">bluebird.</span>try
@@ -2389,9 +2389,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.using" id="apidoc.element.bluebird.using">
         function <span class="apidocSignatureSpan">bluebird.</span>using
@@ -2476,28 +2476,28 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.AggregateError" id="apidoc.module.bluebird.AggregateError">module bluebird.AggregateError</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.AggregateError" id="apidoc.element.bluebird.AggregateError.AggregateError">
         function <span class="apidocSignatureSpan">bluebird.</span>AggregateError
@@ -2518,16 +2518,16 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.AggregateError.prototype" id="apidoc.module.bluebird.AggregateError.prototype">module bluebird.AggregateError.prototype</a></h1>
-    
-    
-    
-    
+
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.constructor" id="apidoc.element.bluebird.AggregateError.prototype.constructor">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>constructor
@@ -2548,9 +2548,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.every" id="apidoc.element.bluebird.AggregateError.prototype.every">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>every
@@ -2561,9 +2561,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function every() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.filter" id="apidoc.element.bluebird.AggregateError.prototype.filter">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>filter
@@ -2574,9 +2574,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function filter() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.forEach" id="apidoc.element.bluebird.AggregateError.prototype.forEach">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>forEach
@@ -2587,9 +2587,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function forEach() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.indexOf" id="apidoc.element.bluebird.AggregateError.prototype.indexOf">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>indexOf
@@ -2600,9 +2600,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function indexOf() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.join" id="apidoc.element.bluebird.AggregateError.prototype.join">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>join
@@ -2613,9 +2613,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function join() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.lastIndexOf" id="apidoc.element.bluebird.AggregateError.prototype.lastIndexOf">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>lastIndexOf
@@ -2626,9 +2626,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function lastIndexOf() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.map" id="apidoc.element.bluebird.AggregateError.prototype.map">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>map
@@ -2639,9 +2639,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function map() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.pop" id="apidoc.element.bluebird.AggregateError.prototype.pop">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>pop
@@ -2652,9 +2652,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function pop() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.push" id="apidoc.element.bluebird.AggregateError.prototype.push">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>push
@@ -2665,9 +2665,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function push() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.reduce" id="apidoc.element.bluebird.AggregateError.prototype.reduce">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>reduce
@@ -2678,9 +2678,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function reduce() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.reduceRight" id="apidoc.element.bluebird.AggregateError.prototype.reduceRight">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>reduceRight
@@ -2691,9 +2691,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function reduceRight() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.reverse" id="apidoc.element.bluebird.AggregateError.prototype.reverse">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>reverse
@@ -2704,9 +2704,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function reverse() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.shift" id="apidoc.element.bluebird.AggregateError.prototype.shift">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>shift
@@ -2717,9 +2717,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function shift() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.slice" id="apidoc.element.bluebird.AggregateError.prototype.slice">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>slice
@@ -2730,9 +2730,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function slice() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.some" id="apidoc.element.bluebird.AggregateError.prototype.some">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>some
@@ -2743,9 +2743,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function some() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.sort" id="apidoc.element.bluebird.AggregateError.prototype.sort">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>sort
@@ -2756,9 +2756,9 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function sort() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.toString" id="apidoc.element.bluebird.AggregateError.prototype.toString">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>toString
@@ -2785,9 +2785,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.AggregateError.prototype.unshift" id="apidoc.element.bluebird.AggregateError.prototype.unshift">
         function <span class="apidocSignatureSpan">bluebird.AggregateError.prototype.</span>unshift
@@ -2798,16 +2798,16 @@ u000a&#x22;);
     <li>description and source-code<pre class="apidocCodePre">function unshift() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
-    
+
+
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.CancellationError" id="apidoc.module.bluebird.CancellationError">module bluebird.CancellationError</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.CancellationError.CancellationError" id="apidoc.element.bluebird.CancellationError.CancellationError">
         function <span class="apidocSignatureSpan">bluebird.</span>CancellationError
@@ -2828,14 +2828,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.CancellationError.prototype" id="apidoc.module.bluebird.CancellationError.prototype">module bluebird.CancellationError.prototype</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.CancellationError.prototype.constructor" id="apidoc.element.bluebird.CancellationError.prototype.constructor">
         function <span class="apidocSignatureSpan">bluebird.CancellationError.prototype.</span>constructor
@@ -2856,14 +2856,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.OperationalError" id="apidoc.module.bluebird.OperationalError">module bluebird.OperationalError</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.OperationalError.OperationalError" id="apidoc.element.bluebird.OperationalError.OperationalError">
         function <span class="apidocSignatureSpan">bluebird.</span>OperationalError
@@ -2889,14 +2889,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.OperationalError.prototype" id="apidoc.module.bluebird.OperationalError.prototype">module bluebird.OperationalError.prototype</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.OperationalError.prototype.constructor" id="apidoc.element.bluebird.OperationalError.prototype.constructor">
         function <span class="apidocSignatureSpan">bluebird.OperationalError.prototype.</span>constructor
@@ -2922,14 +2922,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.PromiseInspection" id="apidoc.module.bluebird.PromiseInspection">module bluebird.PromiseInspection</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.PromiseInspection" id="apidoc.element.bluebird.PromiseInspection.PromiseInspection">
         function <span class="apidocSignatureSpan">bluebird.</span>PromiseInspection
@@ -2951,14 +2951,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.PromiseInspection.prototype" id="apidoc.module.bluebird.PromiseInspection.prototype">module bluebird.PromiseInspection.prototype</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.prototype._settledValue" id="apidoc.element.bluebird.PromiseInspection.prototype._settledValue">
         function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>_settledValue
@@ -2971,9 +2971,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.prototype.error" id="apidoc.element.bluebird.PromiseInspection.prototype.error">
         function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>error
@@ -2990,9 +2990,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.prototype.isCancelled" id="apidoc.element.bluebird.PromiseInspection.prototype.isCancelled">
         function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isCancelled
@@ -3005,9 +3005,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.prototype.isFulfilled" id="apidoc.element.bluebird.PromiseInspection.prototype.isFulfilled">
         function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isFulfilled
@@ -3020,9 +3020,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.prototype.isPending" id="apidoc.element.bluebird.PromiseInspection.prototype.isPending">
         function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isPending
@@ -3035,9 +3035,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.prototype.isRejected" id="apidoc.element.bluebird.PromiseInspection.prototype.isRejected">
         function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isRejected
@@ -3050,9 +3050,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.prototype.isResolved" id="apidoc.element.bluebird.PromiseInspection.prototype.isResolved">
         function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>isResolved
@@ -3065,9 +3065,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.prototype.reason" id="apidoc.element.bluebird.PromiseInspection.prototype.reason">
         function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>reason
@@ -3084,9 +3084,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.PromiseInspection.prototype.value" id="apidoc.element.bluebird.PromiseInspection.prototype.value">
         function <span class="apidocSignatureSpan">bluebird.PromiseInspection.prototype.</span>value
@@ -3103,14 +3103,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.TimeoutError" id="apidoc.module.bluebird.TimeoutError">module bluebird.TimeoutError</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.TimeoutError.TimeoutError" id="apidoc.element.bluebird.TimeoutError.TimeoutError">
         function <span class="apidocSignatureSpan">bluebird.</span>TimeoutError
@@ -3131,14 +3131,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.TimeoutError.prototype" id="apidoc.module.bluebird.TimeoutError.prototype">module bluebird.TimeoutError.prototype</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.TimeoutError.prototype.constructor" id="apidoc.element.bluebird.TimeoutError.prototype.constructor">
         function <span class="apidocSignatureSpan">bluebird.TimeoutError.prototype.</span>constructor
@@ -3159,14 +3159,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird._SomePromiseArray" id="apidoc.module.bluebird._SomePromiseArray">module bluebird._SomePromiseArray</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray._SomePromiseArray" id="apidoc.element.bluebird._SomePromiseArray._SomePromiseArray">
         function <span class="apidocSignatureSpan">bluebird.</span>_SomePromiseArray
@@ -3182,14 +3182,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird._SomePromiseArray.prototype" id="apidoc.module.bluebird._SomePromiseArray.prototype">module bluebird._SomePromiseArray.prototype</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._addFulfilled" id="apidoc.element.bluebird._SomePromiseArray.prototype._addFulfilled">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_addFulfilled
@@ -3202,9 +3202,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._addRejected" id="apidoc.element.bluebird._SomePromiseArray.prototype._addRejected">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_addRejected
@@ -3217,9 +3217,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._canPossiblyFulfill" id="apidoc.element.bluebird._SomePromiseArray.prototype._canPossiblyFulfill">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_canPossiblyFulfill
@@ -3232,9 +3232,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._checkOutcome" id="apidoc.element.bluebird._SomePromiseArray.prototype._checkOutcome">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_checkOutcome
@@ -3261,9 +3261,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._fulfilled" id="apidoc.element.bluebird._SomePromiseArray.prototype._fulfilled">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_fulfilled
@@ -3276,9 +3276,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._getRangeError" id="apidoc.element.bluebird._SomePromiseArray.prototype._getRangeError">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_getRangeError
@@ -3293,9 +3293,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._init" id="apidoc.element.bluebird._SomePromiseArray.prototype._init">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_init
@@ -3321,9 +3321,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._promiseCancelled" id="apidoc.element.bluebird._SomePromiseArray.prototype._promiseCancelled">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_promiseCancelled
@@ -3340,9 +3340,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._promiseFulfilled" id="apidoc.element.bluebird._SomePromiseArray.prototype._promiseFulfilled">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_promiseFulfilled
@@ -3366,9 +3366,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._promiseRejected" id="apidoc.element.bluebird._SomePromiseArray.prototype._promiseRejected">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_promiseRejected
@@ -3382,9 +3382,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._rejected" id="apidoc.element.bluebird._SomePromiseArray.prototype._rejected">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_rejected
@@ -3397,9 +3397,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype._resolveEmptyArray" id="apidoc.element.bluebird._SomePromiseArray.prototype._resolveEmptyArray">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>_resolveEmptyArray
@@ -3412,9 +3412,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype.constructor" id="apidoc.element.bluebird._SomePromiseArray.prototype.constructor">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>constructor
@@ -3430,9 +3430,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype.howMany" id="apidoc.element.bluebird._SomePromiseArray.prototype.howMany">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>howMany
@@ -3445,9 +3445,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype.init" id="apidoc.element.bluebird._SomePromiseArray.prototype.init">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>init
@@ -3461,9 +3461,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype.setHowMany" id="apidoc.element.bluebird._SomePromiseArray.prototype.setHowMany">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>setHowMany
@@ -3476,9 +3476,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird._SomePromiseArray.prototype.setUnwrap" id="apidoc.element.bluebird._SomePromiseArray.prototype.setUnwrap">
         function <span class="apidocSignatureSpan">bluebird._SomePromiseArray.prototype.</span>setUnwrap
@@ -3491,14 +3491,14 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.bluebird.coroutine" id="apidoc.module.bluebird.coroutine">module bluebird.coroutine</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.bluebird.coroutine.coroutine" id="apidoc.element.bluebird.coroutine.coroutine">
         function <span class="apidocSignatureSpan">bluebird.</span>coroutine
@@ -3525,9 +3525,9 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.bluebird.coroutine.addYieldHandler" id="apidoc.element.bluebird.coroutine.addYieldHandler">
         function <span class="apidocSignatureSpan">bluebird.coroutine.</span>addYieldHandler
@@ -3543,8 +3543,8 @@ u000a&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocFooterDiv">
