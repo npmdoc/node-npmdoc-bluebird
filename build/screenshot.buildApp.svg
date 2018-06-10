@@ -1,0 +1,513 @@
+<svg height="4878" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="4878" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-10T18:27:05.625Z - npm-testing /home/travis/build/npmdoc/node-np\</tspan>
+<tspan x="10" y="58">mdoc-bluebird</tspan>
+
+<tspan x="10" y="74"></tspan>
+
+<tspan x="10" y="90"></tspan>
+
+<tspan x="10" y="106">buildApp - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-bluebird/tmp/build\</tspan>
+<tspan x="10" y="122">/test-report.json</tspan>
+
+<tspan x="10" y="138">&gt; server listening on http-port 39712</tspan>
+
+<tspan x="10" y="154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="170">package.json</tspan>
+
+<tspan x="10" y="186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="202">changelog.md</tspan>
+
+<tspan x="10" y="218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="234">.gitignore</tspan>
+
+<tspan x="10" y="250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="266">LICENSE</tspan>
+
+<tspan x="10" y="282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="298">package.json</tspan>
+
+<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="330">README.md</tspan>
+
+<tspan x="10" y="346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="362">js/browser/bluebird.core.js</tspan>
+
+<tspan x="10" y="378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="394">js/browser/bluebird.js</tspan>
+
+<tspan x="10" y="410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="426">js/release/any.js</tspan>
+
+<tspan x="10" y="442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="458">js/release/assert.js</tspan>
+
+<tspan x="10" y="474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="490">js/release/async.js</tspan>
+
+<tspan x="10" y="506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="522">js/release/bind.js</tspan>
+
+<tspan x="10" y="538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="554">js/release/bluebird.js</tspan>
+
+<tspan x="10" y="570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="586">js/release/call_get.js</tspan>
+
+<tspan x="10" y="602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="618">js/release/cancel.js</tspan>
+
+<tspan x="10" y="634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="650">js/release/catch_filter.js</tspan>
+
+<tspan x="10" y="666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="682">js/release/context.js</tspan>
+
+<tspan x="10" y="698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="714">js/release/debuggability.js</tspan>
+
+<tspan x="10" y="730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="746">js/release/direct_resolve.js</tspan>
+
+<tspan x="10" y="762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="778">js/release/each.js</tspan>
+
+<tspan x="10" y="794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="810">js/release/errors.js</tspan>
+
+<tspan x="10" y="826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="842">js/release/es5.js</tspan>
+
+<tspan x="10" y="858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="874">js/release/filter.js</tspan>
+
+<tspan x="10" y="890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="906">js/release/finally.js</tspan>
+
+<tspan x="10" y="922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="938">js/release/generators.js</tspan>
+
+<tspan x="10" y="954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="970">js/release/join.js</tspan>
+
+<tspan x="10" y="986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1002">js/release/map.js</tspan>
+
+<tspan x="10" y="1018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1034">js/release/method.js</tspan>
+
+<tspan x="10" y="1050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1066">js/release/nodeback.js</tspan>
+
+<tspan x="10" y="1082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1098">js/release/nodeify.js</tspan>
+
+<tspan x="10" y="1114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1130">js/release/promise_array.js</tspan>
+
+<tspan x="10" y="1146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1162">js/release/promise.js</tspan>
+
+<tspan x="10" y="1178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1194">js/release/promisify.js</tspan>
+
+<tspan x="10" y="1210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1226">js/release/props.js</tspan>
+
+<tspan x="10" y="1242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1258">js/release/queue.js</tspan>
+
+<tspan x="10" y="1274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1290">js/release/race.js</tspan>
+
+<tspan x="10" y="1306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1322">js/release/reduce.js</tspan>
+
+<tspan x="10" y="1338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1354">js/release/schedule.js</tspan>
+
+<tspan x="10" y="1370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1386">js/release/settle.js</tspan>
+
+<tspan x="10" y="1402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1418">js/release/some.js</tspan>
+
+<tspan x="10" y="1434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1450">js/release/synchronous_inspection.js</tspan>
+
+<tspan x="10" y="1466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1482">js/release/thenables.js</tspan>
+
+<tspan x="10" y="1498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1514">js/release/timers.js</tspan>
+
+<tspan x="10" y="1530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1546">js/release/using.js</tspan>
+
+<tspan x="10" y="1562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="1578">js/release/util.js</tspan>
+
+<tspan x="10" y="1594">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird ..\</tspan>
+<tspan x="10" y="1610">.</tspan>
+
+<tspan x="10" y="1626">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird</tspan>
+
+<tspan x="10" y="1642">apidocCreate - libFile js/browser/bluebird.core.js</tspan>
+
+<tspan x="10" y="1658">apidocCreate - libFile js/browser/bluebird.js</tspan>
+
+<tspan x="10" y="1674">apidocCreate - libFile js/release/any.js</tspan>
+
+<tspan x="10" y="1690">apidocCreate - libFile js/release/assert.js</tspan>
+
+<tspan x="10" y="1706">apidocCreate - libFile js/release/async.js</tspan>
+
+<tspan x="10" y="1722">apidocCreate - libFile js/release/bind.js</tspan>
+
+<tspan x="10" y="1738">apidocCreate - libFile js/release/call_get.js</tspan>
+
+<tspan x="10" y="1754">apidocCreate - libFile js/release/cancel.js</tspan>
+
+<tspan x="10" y="1770">apidocCreate - libFile js/release/catch_filter.js</tspan>
+
+<tspan x="10" y="1786">apidocCreate - libFile js/release/context.js</tspan>
+
+<tspan x="10" y="1802">apidocCreate - libFile js/release/debuggability.js</tspan>
+
+<tspan x="10" y="1818">apidocCreate - libFile js/release/direct_resolve.js</tspan>
+
+<tspan x="10" y="1834">apidocCreate - libFile js/release/each.js</tspan>
+
+<tspan x="10" y="1850">apidocCreate - libFile js/release/errors.js</tspan>
+
+<tspan x="10" y="1866">apidocCreate - libFile js/release/es5.js</tspan>
+
+<tspan x="10" y="1882">apidocCreate - libFile js/release/filter.js</tspan>
+
+<tspan x="10" y="1898">apidocCreate - libFile js/release/finally.js</tspan>
+
+<tspan x="10" y="1914">apidocCreate - libFile js/release/generators.js</tspan>
+
+<tspan x="10" y="1930">apidocCreate - libFile js/release/join.js</tspan>
+
+<tspan x="10" y="1946">apidocCreate - libFile js/release/map.js</tspan>
+
+<tspan x="10" y="1962">apidocCreate - libFile js/release/method.js</tspan>
+
+<tspan x="10" y="1978">apidocCreate - libFile js/release/nodeback.js</tspan>
+
+<tspan x="10" y="1994">apidocCreate - libFile js/release/nodeify.js</tspan>
+
+<tspan x="10" y="2010">apidocCreate - libFile js/release/promise_array.js</tspan>
+
+<tspan x="10" y="2026">apidocCreate - libFile js/release/promise.js</tspan>
+
+<tspan x="10" y="2042">apidocCreate - libFile js/release/promisify.js</tspan>
+
+<tspan x="10" y="2058">apidocCreate - libFile js/release/props.js</tspan>
+
+<tspan x="10" y="2074">apidocCreate - libFile js/release/queue.js</tspan>
+
+<tspan x="10" y="2090">apidocCreate - libFile js/release/race.js</tspan>
+
+<tspan x="10" y="2106">apidocCreate - libFile js/release/reduce.js</tspan>
+
+<tspan x="10" y="2122">apidocCreate - libFile js/release/schedule.js</tspan>
+
+<tspan x="10" y="2138">apidocCreate - libFile js/release/settle.js</tspan>
+
+<tspan x="10" y="2154">apidocCreate - libFile js/release/some.js</tspan>
+
+<tspan x="10" y="2170">apidocCreate - libFile js/release/synchronous_inspection.js</tspan>
+
+<tspan x="10" y="2186">apidocCreate - libFile js/release/thenables.js</tspan>
+
+<tspan x="10" y="2202">apidocCreate - libFile js/release/timers.js</tspan>
+
+<tspan x="10" y="2218">apidocCreate - libFile js/release/using.js</tspan>
+
+<tspan x="10" y="2234">apidocCreate - libFile js/release/util.js</tspan>
+
+<tspan x="10" y="2250">created apidoc file /home/travis/build/npmdoc/node-npmdoc-bluebird/tmp/build/apidoc.html</tspan>
+
+<tspan x="10" y="2266"></tspan>
+
+<tspan x="10" y="2282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2298">package.json</tspan>
+
+<tspan x="10" y="2314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2330">changelog.md</tspan>
+
+<tspan x="10" y="2346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2362">.gitignore</tspan>
+
+<tspan x="10" y="2378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2394">LICENSE</tspan>
+
+<tspan x="10" y="2410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2426">package.json</tspan>
+
+<tspan x="10" y="2442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2458">README.md</tspan>
+
+<tspan x="10" y="2474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2490">js/browser/bluebird.core.js</tspan>
+
+<tspan x="10" y="2506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2522">js/browser/bluebird.js</tspan>
+
+<tspan x="10" y="2538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2554">js/release/any.js</tspan>
+
+<tspan x="10" y="2570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2586">js/release/assert.js</tspan>
+
+<tspan x="10" y="2602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2618">js/release/async.js</tspan>
+
+<tspan x="10" y="2634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2650">js/release/bind.js</tspan>
+
+<tspan x="10" y="2666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2682">js/release/bluebird.js</tspan>
+
+<tspan x="10" y="2698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2714">js/release/call_get.js</tspan>
+
+<tspan x="10" y="2730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2746">js/release/cancel.js</tspan>
+
+<tspan x="10" y="2762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2778">js/release/catch_filter.js</tspan>
+
+<tspan x="10" y="2794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2810">js/release/context.js</tspan>
+
+<tspan x="10" y="2826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2842">js/release/debuggability.js</tspan>
+
+<tspan x="10" y="2858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2874">js/release/direct_resolve.js</tspan>
+
+<tspan x="10" y="2890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2906">js/release/each.js</tspan>
+
+<tspan x="10" y="2922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2938">js/release/errors.js</tspan>
+
+<tspan x="10" y="2954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="2970">js/release/es5.js</tspan>
+
+<tspan x="10" y="2986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3002">js/release/filter.js</tspan>
+
+<tspan x="10" y="3018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3034">js/release/finally.js</tspan>
+
+<tspan x="10" y="3050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3066">js/release/generators.js</tspan>
+
+<tspan x="10" y="3082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3098">js/release/join.js</tspan>
+
+<tspan x="10" y="3114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3130">js/release/map.js</tspan>
+
+<tspan x="10" y="3146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3162">js/release/method.js</tspan>
+
+<tspan x="10" y="3178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3194">js/release/nodeback.js</tspan>
+
+<tspan x="10" y="3210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3226">js/release/nodeify.js</tspan>
+
+<tspan x="10" y="3242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3258">js/release/promise_array.js</tspan>
+
+<tspan x="10" y="3274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3290">js/release/promise.js</tspan>
+
+<tspan x="10" y="3306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3322">js/release/promisify.js</tspan>
+
+<tspan x="10" y="3338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3354">js/release/props.js</tspan>
+
+<tspan x="10" y="3370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3386">js/release/queue.js</tspan>
+
+<tspan x="10" y="3402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3418">js/release/race.js</tspan>
+
+<tspan x="10" y="3434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3450">js/release/reduce.js</tspan>
+
+<tspan x="10" y="3466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3482">js/release/schedule.js</tspan>
+
+<tspan x="10" y="3498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3514">js/release/settle.js</tspan>
+
+<tspan x="10" y="3530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3546">js/release/some.js</tspan>
+
+<tspan x="10" y="3562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3578">js/release/synchronous_inspection.js</tspan>
+
+<tspan x="10" y="3594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3610">js/release/thenables.js</tspan>
+
+<tspan x="10" y="3626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3642">js/release/timers.js</tspan>
+
+<tspan x="10" y="3658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3674">js/release/using.js</tspan>
+
+<tspan x="10" y="3690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird/\</tspan>
+<tspan x="10" y="3706">js/release/util.js</tspan>
+
+<tspan x="10" y="3722">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird ..\</tspan>
+<tspan x="10" y="3738">.</tspan>
+
+<tspan x="10" y="3754">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-bluebird/node_modules/bluebird</tspan>
+
+<tspan x="10" y="3770">apidocCreate - libFile js/browser/bluebird.core.js</tspan>
+
+<tspan x="10" y="3786">apidocCreate - libFile js/browser/bluebird.js</tspan>
+
+<tspan x="10" y="3802">apidocCreate - libFile js/release/any.js</tspan>
+
+<tspan x="10" y="3818">apidocCreate - libFile js/release/assert.js</tspan>
+
+<tspan x="10" y="3834">apidocCreate - libFile js/release/async.js</tspan>
+
+<tspan x="10" y="3850">apidocCreate - libFile js/release/bind.js</tspan>
+
+<tspan x="10" y="3866">apidocCreate - libFile js/release/call_get.js</tspan>
+
+<tspan x="10" y="3882">apidocCreate - libFile js/release/cancel.js</tspan>
+
+<tspan x="10" y="3898">apidocCreate - libFile js/release/catch_filter.js</tspan>
+
+<tspan x="10" y="3914">apidocCreate - libFile js/release/context.js</tspan>
+
+<tspan x="10" y="3930">apidocCreate - libFile js/release/debuggability.js</tspan>
+
+<tspan x="10" y="3946">apidocCreate - libFile js/release/direct_resolve.js</tspan>
+
+<tspan x="10" y="3962">apidocCreate - libFile js/release/each.js</tspan>
+
+<tspan x="10" y="3978">apidocCreate - libFile js/release/errors.js</tspan>
+
+<tspan x="10" y="3994">apidocCreate - libFile js/release/es5.js</tspan>
+
+<tspan x="10" y="4010">apidocCreate - libFile js/release/filter.js</tspan>
+
+<tspan x="10" y="4026">apidocCreate - libFile js/release/finally.js</tspan>
+
+<tspan x="10" y="4042">apidocCreate - libFile js/release/generators.js</tspan>
+
+<tspan x="10" y="4058">apidocCreate - libFile js/release/join.js</tspan>
+
+<tspan x="10" y="4074">apidocCreate - libFile js/release/map.js</tspan>
+
+<tspan x="10" y="4090">apidocCreate - libFile js/release/method.js</tspan>
+
+<tspan x="10" y="4106">apidocCreate - libFile js/release/nodeback.js</tspan>
+
+<tspan x="10" y="4122">apidocCreate - libFile js/release/nodeify.js</tspan>
+
+<tspan x="10" y="4138">apidocCreate - libFile js/release/promise_array.js</tspan>
+
+<tspan x="10" y="4154">apidocCreate - libFile js/release/promise.js</tspan>
+
+<tspan x="10" y="4170">apidocCreate - libFile js/release/promisify.js</tspan>
+
+<tspan x="10" y="4186">apidocCreate - libFile js/release/props.js</tspan>
+
+<tspan x="10" y="4202">apidocCreate - libFile js/release/queue.js</tspan>
+
+<tspan x="10" y="4218">apidocCreate - libFile js/release/race.js</tspan>
+
+<tspan x="10" y="4234">apidocCreate - libFile js/release/reduce.js</tspan>
+
+<tspan x="10" y="4250">apidocCreate - libFile js/release/schedule.js</tspan>
+
+<tspan x="10" y="4266">apidocCreate - libFile js/release/settle.js</tspan>
+
+<tspan x="10" y="4282">apidocCreate - libFile js/release/some.js</tspan>
+
+<tspan x="10" y="4298">apidocCreate - libFile js/release/synchronous_inspection.js</tspan>
+
+<tspan x="10" y="4314">apidocCreate - libFile js/release/thenables.js</tspan>
+
+<tspan x="10" y="4330">apidocCreate - libFile js/release/timers.js</tspan>
+
+<tspan x="10" y="4346">apidocCreate - libFile js/release/using.js</tspan>
+
+<tspan x="10" y="4362">apidocCreate - libFile js/release/util.js</tspan>
+
+<tspan x="10" y="4378">created customOrg file /home/travis/build/npmdoc/node-npmdoc-bluebird/README.md</tspan>
+
+<tspan x="10" y="4394"></tspan>
+
+<tspan x="10" y="4410">(node:5919) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
+<tspan x="10" y="4426">e.</tspan>
+
+<tspan x="10" y="4442">(node:5919) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+
+<tspan x="10" y="4458">&gt; server listening on http-port 41132</tspan>
+
+<tspan x="10" y="4474">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
+
+<tspan x="10" y="4490"></tspan>
+
+<tspan x="10" y="4506">buildApp - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-bluebird/tmp/build\</tspan>
+<tspan x="10" y="4522">/test-report.json</tspan>
+
+<tspan x="10" y="4538"></tspan>
+
+<tspan x="10" y="4554">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="4570">| test-report - buildApidoc - node - linux v6.14.2 - 2018-06-10T18:26:42.536Z</tspan>
+
+<tspan x="10" y="4586">|   31518 ms            0 failed        1 passed      |</tspan>
+
+<tspan x="10" y="4602">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="4618">| test-report - buildApp - node - linux v6.14.2 - 2018-06-10T18:26:06.674Z</tspan>
+
+<tspan x="10" y="4634">|   32680 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="4650">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="4666">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="4682">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-10T18:26:24.700Z</tspan>
+
+<tspan x="10" y="4698">|      53 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="4714">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="4730"></tspan>
+
+<tspan x="10" y="4746">created test-report file /home/travis/build/npmdoc/node-npmdoc-bluebird/tmp/build/test-report.ht\</tspan>
+<tspan x="10" y="4762">ml</tspan>
+
+<tspan x="10" y="4778"></tspan>
+
+<tspan x="10" y="4794"></tspan>
+
+<tspan x="10" y="4810">buildApp - 0 failed tests</tspan>
+
+<tspan x="10" y="4826"></tspan>
+
+<tspan x="10" y="4842"></tspan>
+
+<tspan x="10" y="4858">[MODE_BUILD=buildApp] - 2018-06-10T18:27:15.557Z - EXIT_CODE - 0</tspan>
+
+</text>
+</svg>
