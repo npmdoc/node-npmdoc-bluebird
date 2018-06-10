@@ -1,6 +1,6 @@
 # npmdoc-bluebird
 
-#### api documentation for  [bluebird (v3.5.0)](https://github.com/petkaantonov/bluebird)  [![npm package](https://img.shields.io/npm/v/npmdoc-bluebird.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bluebird) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bluebird.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bluebird)
+#### basic api documentation for  [bluebird (3.5.1)](https://github.com/petkaantonov/bluebird)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bluebird.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bluebird)
 
 #### Full featured Promises/A+ implementation with exceptionally good performance
 
@@ -8,11 +8,11 @@
 
 - [https://npmdoc.github.io/node-npmdoc-bluebird/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-bluebird/build/apidoc.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-bluebird/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-bluebird/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-bluebird/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-bluebird/build/apidoc.html)
 
-![npmPackageListing](https://npmdoc.github.io/node-npmdoc-bluebird/build/screenCapture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-bluebird/build/screenshot.npmPackageListing.svg)
 
-![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-bluebird/build/screenCapture.npmPackageDependencyTree.svg)
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-bluebird/build/screenshot.npmPackageDependencyTree.svg)
 
 
 
@@ -59,15 +59,16 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "791420d7f551eea2897453a8a77653f96606d67c",
-        "tarball": "https://registry.npmjs.org/bluebird/-/bluebird-3.5.0.tgz"
+        "integrity": "sha512-MKiLiV+I1AA596t9w1sQJ8jkiSr5+ZKi0WKrYGUn6d1Fx+Ij4tIj+m2WMQSGczs5jZVxV339chE8iwk6F64wjA==",
+        "shasum": "d9551f9de98f1fcda1e683d17ee91a0602ee2eb9",
+        "tarball": "https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz"
     },
     "files": [
         "js/browser",
         "js/release",
         "LICENSE"
     ],
-    "gitHead": "0b281e6caeec9c30b8de9a409b8ff1723f973f59",
+    "gitHead": "dcfa52bf8b8a8fc5cfb0ca24bccb33f7493960ae",
     "homepage": "https://github.com/petkaantonov/bluebird",
     "keywords": [
         "promise",
@@ -105,8 +106,9 @@
         "prepublish": "npm run generate-browser-core && npm run generate-browser-full",
         "test": "node tools/test.js"
     },
-    "version": "3.5.0",
-    "webpack": "./js/release/bluebird.js"
+    "version": "3.5.1",
+    "webpack": "./js/release/bluebird.js",
+    "bin": {}
 }
 ```
 

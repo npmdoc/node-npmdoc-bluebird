@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### api documentation for  [bluebird (v3.5.0)](https://github.com/petkaantonov/bluebird)  [![npm package](https://img.shields.io/npm/v/npmdoc-bluebird.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bluebird) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bluebird.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bluebird)",
+    "description": "#### basic api documentation for  [bluebird (3.5.1)](https://github.com/petkaantonov/bluebird)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bluebird.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bluebird)",
     "devDependencies": {
         "bluebird": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -18,6 +18,8 @@
     "main": "lib.npmdoc_bluebird.js",
     "name": "npmdoc-bluebird",
     "nameAlias": "npmdoc_bluebird",
+    "nameAliasPublish": "",
+    "nameLib": "npmdoc_bluebird",
     "nameOriginal": "npmdoc-bluebird",
     "os": [
         "darwin",
@@ -28,12 +30,13 @@
         "url": "https://github.com/npmdoc/node-npmdoc-bluebird.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh",
-        "env": "env",
-        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
-        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
-        "start": "PORT=${PORT:-8080} utility2 start test.js",
-        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+        "build-ci": "./npm_scripts.sh",
+        "eval": "./npm_scripts.sh",
+        "heroku-postbuild": "./npm_scripts.sh",
+        "postinstall": "./npm_scripts.sh",
+        "start": "./npm_scripts.sh",
+        "test": "./npm_scripts.sh",
+        "utility2": "./npm_scripts.sh"
     },
-    "version": "0.0.8"
+    "version": "2018.6.10"
 }
