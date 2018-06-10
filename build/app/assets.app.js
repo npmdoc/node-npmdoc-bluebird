@@ -33229,7 +33229,7 @@ local.stateInit({
             "npm_package_homepage": "https://github.com/npmdoc/node-npmdoc-bluebird",
             "npm_package_name": "npmdoc-bluebird",
             "npm_package_nameLib": "npmdoc_bluebird",
-            "npm_package_version": "0.0.8"
+            "npm_package_version": "2018.6.10"
         }
     }
 });
